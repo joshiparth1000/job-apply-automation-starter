@@ -1,0 +1,7 @@
+version = 1
+id = "daily-job-hunt"
+kind = "heartbeat"
+name = "Daily Job Hunt"
+prompt = "Search for live U.S.-based jobs that fit the candidate's background in platform engineering, SRE, DevOps, infrastructure leadership, cloud platform architecture, Kubernetes, Terraform, observability, and engineering enablement. Only pursue roles at companies with more than 500 employees. Use LinkedIn, official company career pages, and ATS boards. Exclude jobs that explicitly state visa sponsorship is not provided. If compensation is listed, only pursue jobs whose posted range reaches the candidate's configured threshold. Prioritize true experience fit over title or compensation. If an application asks for a resume upload, tailor the resume to the specific job description first and upload the tailored version as PDF by default while keeping the original resume unchanged. Keep tailored resumes in a standard professional resume format. Automatically apply where the application is live and can be completed confidently using candidate details stored in private local files. Maintain and update the local tracker so roles already submitted are never applied to again. For jobs that cannot be applied to automatically, append them to the tracker with the blocker and notify the user. Always prefer accuracy over volume, and do not submit any application when the required answers are uncertain."
+status = "ACTIVE"
+rrule = "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0"

@@ -1,0 +1,14 @@
+{
+  "name": "job-apply-automation-starter",
+  "version": "1.0.0",
+  "private": false,
+  "type": "commonjs",
+  "description": "Public-safe starter kit for browser-assisted job application automation.",
+  "license": "MIT",
+  "scripts": {
+    "apply:greenhouse": "node scripts/apply_greenhouse_template.js"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

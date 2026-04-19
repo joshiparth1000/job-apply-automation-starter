@@ -1,0 +1,14 @@
+{
+  "candidate": {
+    "name": "REDACTED",
+    "email": "you@example.com",
+    "linkedin": "https://www.linkedin.com/in/example"
+  },
+  "applied": [],
+  "pending_manual_review": [],
+  "skipped": [],
+  "notes": [
+    "Use this tracker as the source of truth for duplicate avoidance.",
+    "Keep the live tracker private and untracked."
+  ]
+}

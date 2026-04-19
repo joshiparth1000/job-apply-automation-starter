@@ -1,0 +1,19 @@
+{
+  "firstName": "FIRST_NAME",
+  "lastName": "LAST_NAME",
+  "email": "you@example.com",
+  "phoneCountryCode": "+1",
+  "phone": "5555555555",
+  "country": "United States",
+  "location": "City, ST",
+  "address": "123 Example Street, City, ST 12345",
+  "linkedin": "https://www.linkedin.com/in/example",
+  "authorizedToWork": "Yes",
+  "requiresSponsorship": "Yes",
+  "disclosures": {
+    "race": "Asian (Not Hispanic or Latino)",
+    "gender": "Male",
+    "veteranStatus": "Not a protected veteran",
+    "disabilityStatus": "No, I do not have a disability and have not had one in the past"
+  }
+}
