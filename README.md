@@ -77,6 +77,41 @@ New-Item -ItemType Directory resumes -Force
 npm run apply:greenhouse
 ```
 
+## Using With Codex
+
+This starter also works well as a Codex-assisted workflow.
+
+Typical setup:
+
+1. Open the repository in Codex.
+2. Keep this public repo as the sanitized project structure.
+3. Create local-only private files that stay untracked:
+   - `candidate.local.json`
+   - `job-application-tracker.json`
+   - `resumes/`
+   - `chrome-automation-profile/`
+4. Ask Codex to:
+   - tailor a resume for a specific posting
+   - update form field mappings for a target careers page
+   - run the Playwright script
+   - track submitted jobs and blocked applications
+   - maintain a recurring automation prompt
+
+Example Codex tasks:
+
+- `Tailor the resume in resumes/base_resume.pdf for this job description and save a new PDF in resumes/.`
+- `Update scripts/apply_greenhouse_template.js for this Greenhouse application URL and use candidate.local.json for the inputs.`
+- `Run the apply script and tell me if the form was submitted or if a manual step is needed.`
+- `Create a recurring Codex automation that searches for roles matching my profile and updates job-application-tracker.json.`
+
+Recommended Codex workflow:
+
+- keep reusable logic in the public repo
+- keep personal files and browser state only on your local machine
+- let Codex edit the scripts and templates, but do not commit private candidate data back into the repo
+
+If you use Codex desktop automations, store only sanitized prompt templates in git and keep live thread-specific automation state out of the public repository.
+
 ## Publishing Advice
 
 Before pushing to GitHub:
